@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.device.dualscreen.layouts.SurfaceDuoFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/duo_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="@string/hello_world"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/move_to_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/move_to_start"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/move_to_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/move_to_end"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/span"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/span_the_app"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</com.microsoft.device.dualscreen.layouts.SurfaceDuoFrameLayout>

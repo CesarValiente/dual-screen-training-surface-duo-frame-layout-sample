@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SurfaceDuoFrameLayoutSample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="move_to_start">Move to start</string>
+    <string name="move_to_end">Move to end</string>
+    <string name="span_the_app">Spanned</string>
+</resources>
